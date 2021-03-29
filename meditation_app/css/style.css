@@ -1,0 +1,76 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-image: url("../assets/clouds.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 300%;
+    font-weight: 900;
+}
+
+.author {
+    text-align: center;
+    margin-left: 30%;
+    padding-top: 5%;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.title,
+.author,
+.enter-btn,
+.social a {
+    color: rgb(0, 53, 105);
+    text-shadow: 2px 2px 2px rgba(131, 72, 187, 0.5), -2px -2px 2px rgba(131, 72, 187, 0.5), -2px 2px 2px rgba(131, 72, 187, 0.5), 2px -2px 2px rgba(131, 72, 187, 0.5), 0 0 2px rgba(131, 72, 187, 0.5), 2px 0 2px rgba(131, 72, 187, 0.5), 0 2px 2px rgba(131, 72, 187, 0.5), -2px 0 2px rgba(131, 72, 187, 0.5), 0 -2px 2px rgba(131, 72, 187, 0.5), 5px 5px 4px black;
+    outline: none;
+}
+
+
+.social {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.social a {
+    padding: 0 1%;
+}
+
+.enter-wrap {
+    text-align: center;
+}
+
+.enter-btn {
+    margin: auto;
+    margin-top: 6%;
+    width: 30vw;
+    height: 15vh;
+    font-size: 4vw;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    background: #575757;
+    background: -moz-radial-gradient(center, #575757 0%, #ffffff 0%, #575757 100%);
+    background: -webkit-radial-gradient(center, #575757 0%, #ffffff 0%, #575757 100%);
+    background: radial-gradient(ellipse at center, #575757 0%, #ffffff 0%, #575757 100%);
+    cursor: pointer;
+}
+
+.enter-btn:hover,
+.social a:hover {
+    text-shadow: 2px 2px 2px rgb(255, 196, 0), -2px -2px 2px rgb(255, 196, 0), -2px 2px 2px rgb(255, 196, 0), 2px -2px rgb(255, 196, 0), 0 0 2px rgb(255, 196, 0), 2px 0 2px rgb(255, 196, 0), 0 2px 2px rgb(255, 196, 0), -2px 0 2px rgb(255, 196, 0), 0 -2px 2px rgb(255, 196, 0), 5px 5px 5px black;
+    color: rgb(2, 36, 70);
+}
+
+.enter-btn:hover {
+    border: 5px solid rgb(255, 196, 0);
+}
