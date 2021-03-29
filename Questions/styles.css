@@ -73,7 +73,7 @@ Global Styles
 
 body {
     font-family: var(--ff-secondary);
-    background: var(--clr-grey-10);
+    background: var(--clr-grey-4);
     color: var(--clr-grey-1);
     line-height: 1.5;
     font-size: 0.875rem;
@@ -157,7 +157,9 @@ p {
 .logo {
     width: 100px;
     height: auto;
-    padding: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 .btn {
@@ -213,15 +215,20 @@ Questions
 */
 
 .title {
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 4rem;
 }
 
 .title h2,
 .title h3 {
-    color: var(--clr-gold);
+    color: var(--clr-grey-10);
     font-family: "Great Vibes", cursive;
     text-align: center;
+    text-shadow: 4px 4px 5px black, 2px 2px 0 rgb(0, 1, 61), 2px -2px 0 rgb(0, 1, 61), -2px 2px 0 rgb(0, 1, 61), -2px -2px 0 rgb(0, 1, 61), 2px 0px 0 rgb(0, 1, 61), 0px 2px 0 rgb(0, 1, 61), -2px 0px 0 rgb(0, 1, 61), 0px -2px 0 rgb(0, 1, 61);
+}
+
+.title h3 {
+    font-size: 1.5vw;
 }
 
 .section-center {
@@ -275,19 +282,22 @@ Questions
 
 /* hide text */
 
+.question-text {
+    display: none;
+}
 
-/* .question-text {
-  display: none;
-}
 .show-text .question-text {
-  display: block;
+    display: block;
 }
+
 .minus-icon {
-  display: none;
+    display: none;
 }
+
 .show-text .minus-icon {
-  display: inline;
+    display: inline;
 }
+
 .show-text .plus-icon {
-  display: none;
-} */
+    display: none;
+}
