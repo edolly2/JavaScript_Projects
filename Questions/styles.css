@@ -155,9 +155,9 @@ p {
 /*  global classes */
 
 .logo {
-    width: 100px;
+    width: 50px;
     height: auto;
-    position: absolute;
+    position: relative;
     top: 20px;
     left: 20px;
 }
